@@ -1,0 +1,50 @@
+/* 
+Layout
+========================================================================== */
+
+.logo {
+
+    position: absolute;
+	z-index: 2;
+	inset: 176px 0 205px;
+	width: 200px;
+    z-index: 2;
+}
+
+.logo,
+.img--cta {
+    margin: 0 auto;
+}
+
+.img--primary {
+	object-fit: cover;
+	object-position: top;
+}
+
+.arrow {
+    height: 12px;
+    width: 7px;
+}
+
+.frame_content {
+    display: flex;
+    justify-content: space-around;
+	align-items: flex-start;
+    font-family: BemboStd;
+    font-size: 24px;
+}
+
+.bottom_margin {
+    margin-bottom: 20px;
+}
+
+
+
+/* 
+Typography
+ ==========================================================================*/
+
+ @font-face {
+	font-family: BemboStd;
+	src: url("./fonts/BemboStd.otf.webloc");
+}

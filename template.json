@@ -1,0 +1,58 @@
+[
+  {
+    "t": "s",
+    "s": ".dynamicAdvertContainer{position:absolute;border:1px solid #000;box-sizing:border-box;line-height:1;overflow:hidden;width:300px;height:600px;cursor:pointer;transform:translateZ(0);background-color: #f9f7f0;}@font-face{font-family:BemboStd;src:url('./fonts/BemboStd.otf.webloc')}.logo{margin:0 auto;position:absolute;z-index:2;inset:176px 0 205px;width:200px;z-index: 2}.img--primary{object-fit:cover;object-position:top}.img--cta{margin:0 auto}.arrow{height:12px;width:7px}.frame_content{display:flex;justify-content:space-around;align-items:flex-start;font-family: BemboStd;font-size: 20px;}.bottom_margin{margin-bottom:25px}"
+  },
+  {
+    "t": "e",
+    "c": "logo",
+    "s": "text-align:center",
+    "h": "<img src='./assets/logo_x.png' alt='logo' width='200'/>"
+  },
+  {
+    "t": "f",
+    "d": "3000",
+    "c": "frame_one bottom_margin",
+    "s": "",
+    "e": [
+      {
+        "t": "e",
+        "c": "img",
+        "s": "",
+        "h": "<img class='img--primary' src='./assets/lily_2x.png' alt='Alexa' width='300' height='430' />"
+      }
+    ]
+    
+  },
+  {
+    "t":"f",
+    "c":"frame_content bottom_margin",
+    "s":"",
+    "e": [
+      {
+          "t": "e",
+          "s": "",
+          "h": "<img class='arrow' src='./assets/arrow_2_2x.png' alt='logo'/>" 
+      },
+      {
+          "t": "e",
+          "c": "copy",
+          "s": "text-align:center",
+          "h": "<div class='' style=''>Mini Alexa in Amethyst</div>" 
+      },
+      {
+          "t": "e",
+          "s": "text-align:center",
+          "h": "<img class='arrow' src='./assets/arrow_2x.png' alt='logo'/>" 
+      }
+    ]
+
+  },
+  {
+    "t": "e",
+    "c": "",
+    "s": "display:flex",
+    "h": "<img class='img--cta' src='./assets/cta_2x.png' alt='Alexa' width='80' height='15' />"
+  }
+  
+]
