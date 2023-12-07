@@ -47,16 +47,13 @@ Layout
 
 }
 
-/* .active {
-    opacity: 1;
+.frame--img {
+    transition: opacity 1.5s ease-in-out;
 }
 
-.alexa,
-.lily,
-.mirco,
-.scarf {
-    opacity: 0;
-} */
+.active {
+    opacity: 1;
+}
 
 .bottom_margin {
     margin-bottom: 20px;
