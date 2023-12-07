@@ -1,58 +1,155 @@
 [
   {
     "t": "s",
-    "s": ".dynamicAdvertContainer{position:absolute;border:1px solid #000;box-sizing:border-box;line-height:1;overflow:hidden;width:300px;height:600px;cursor:pointer;transform:translateZ(0);background-color: #f9f7f0;}@font-face{font-family:BemboStd;src:url('./fonts/BemboStd.otf.webloc')}.logo{margin:0 auto;position:absolute;z-index:2;inset:176px 0 205px;width:200px;z-index: 2}.img--primary{object-fit:cover;object-position:top}.img--cta{margin:0 auto}.arrow{height:12px;width:7px}.frame_content{display:flex;justify-content:space-around;align-items:flex-start;font-family: BemboStd;font-size: 20px;}.bottom_margin{margin-bottom:25px}"
+    "s": ".dynamicAdvertContainer{position:absolute;border:1px solid #000;box-sizing:border-box;line-height:1;overflow:hidden;width:300px;height:600px;cursor:pointer;transform:translateZ(0);background-color: #f9f7f0;}@font-face{font-family:BemboStd;src:url('./fonts/BemboStd.otf.webloc')}.logo{margin:0 auto;position:absolute;z-index:2;inset:176px 0 205px;width:200px;}.img--primary{object-fit:cover;object-position:top;height:430px;width:300px;}.img--cta{margin:0 auto}.arrow{height:12px;width:7px}.frame_content{display:flex;justify-content:space-around;align-items:flex-start;font-size: 20px;}.bottom_margin{margin-bottom:25px}.frame--img,.copy{position:absolute}.copy{font-family: BemboStd;text-align: center;bottom:125px;left:0;right:0;margin:0 auto}.frame_img_container{height:430px;width:300px}"
   },
   {
     "t": "e",
     "c": "logo",
     "s": "text-align:center",
-    "h": "<img src='./assets/logo_x.png' alt='logo' width='200'/>"
+    "h": "<img src='https://s0.2mdn.net/creatives/assets/5055458/logo_2x.png' alt='logo' width='200'/>"
   },
   {
     "t": "f",
     "d": "3000",
-    "c": "frame_one bottom_margin",
+    "c": "frame_img_container bottom_margin",
+    "s": "",
+    "j": {
+      "s": "CihmdW5jdGlvbiAoKSB7Ci8vIGNvbnN0IGFsZXhhID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmFsZXhhJykKLy8gY29uc29sZS5sb2coZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZSgnYWxleGEnKSkKLy8gY29uc29sZS5sb2coZG9jdW1lbnQucXVlcnlTZWxlY3RvcignYWxleGEnKSkKLy8gY29uc29sZS5sb2coZG9jdW1lbnQpCgpjb25zdCBsaWx5ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmxpbHknKQpjb25zdCBtaWNybyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5taWNybycpCmNvbnN0IHNjYXJmID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLnNjYXJmJykKCi8vIGNvbnN0IGltYWdlQXJyID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLmZyYW1lLWltZycpCi8vIGFsZXhhLmNsYXNzTGlzdC5yZW1vdmUoJ2FjdGl2ZScpCmNvbnNvbGUubG9nKCd0ZXN0JykKICAKfSkoKTs="
+    },
+    "e": [
+      {
+        "t": "e",
+        "c": "frame--img",
+        "s": "opacity: 1",
+        "h": "<img class='img--primary' src='https://s0.2mdn.net/creatives/assets/5055458/mini-alexa_2x.png' alt='Alexa' />",
+        "a": {
+          "s": 500,
+          "e": 1500,
+          "n": "opacity 1s ease-out",
+          "b": "opacity: 0"
+        }
+      },
+      {
+        "t": "e",
+        "c": "frame--img",
+        "s": "opacity: 0",
+        "h": "<img class='img--primary' src='https://s0.2mdn.net/creatives/assets/5055458/lily_2x.png' alt='Lily' />",
+        "a": {
+          "s": 1000,
+          "e": 3000,
+          "n": "opacity 1s ease-in",
+          "x": "opacity 1s ease-out",
+          "b": "opacity: 1",
+          "a": "opacity: 0"
+        }
+      },
+      {
+        "t": "e",
+        "c": "frame--img",
+        "s": "opacity: 0",
+        "h": "<img class='img--primary' src='https://s0.2mdn.net/creatives/assets/5055458/micro-bags_2x.png' alt='Mirco Bags' />",
+        "a": {
+          "s": 2500,
+          "e": 4500,
+          "n": "opacity 1s ease-in",
+          "x": "opacity 1s ease-out",
+          "b": "opacity: 1",
+          "a": "opacity: 0"
+        }
+      },
+      {
+        "t": "e",
+        "c": "frame--img",
+        "s": "opacity: 0",
+        "h": "<img class='img--primary' src='https://s0.2mdn.net/creatives/assets/5055458/mens-scarf-and-briefcase_2x.png' alt='Scarf' />",
+        "a": {
+          "s": 4000,
+          "e": 6000,
+          "n": "opacity 1s ease-in",
+          "x": "opacity 1s ease-out",
+          "b": "opacity: 1",
+          "a": "opacity: 0"
+        }
+      },
+      {
+        "t": "e",
+        "c": "copy",
+        "s": "opacity: 1",
+        "h": "Mini Alexa in Amethyst",
+        "a": {
+          "s": 500,
+          "e": 1000,
+          "n": "opacity 1s ease-out",
+          "b": "opacity: 0"
+        }
+      },
+      {
+        "t": "e",
+        "c": "copy",
+        "s": "opacity: 0",
+        "h": "Medium Lily in Sapphire",
+        "a": {
+          "s": 1000,
+          "e": 3000,
+          "n": "opacity 1s ease-in",
+          "x": "opacity 1s ease-out",
+          "b": "opacity: 1",
+          "a": "opacity: 0"
+        }
+      },
+      {
+        "t": "e",
+        "c": "copy",
+        "s": "opacity: 0",
+        "h": "Micro Bags",
+        "a": {
+          "s": 2500,
+          "e": 4500,
+          "n": "opacity 1s ease-in",
+          "x": "opacity 1s ease-out",
+          "b": "opacity: 1",
+          "a": "opacity: 0"
+        }
+      },
+      {
+        "t": "e",
+        "c": "copy",
+        "s": "opacity: 0;height:16px;width:180px",
+        "h": "Small Check Merino Wool Scarf",
+        "a": {
+          "s": 4000,
+          "e": 6000,
+          "n": "opacity 1s ease-in",
+          "x": "opacity 1s ease-out",
+          "b": "opacity: 1",
+          "a": "opacity: 0"
+        }
+      }
+    ]
+  },
+  {
+    "t": "f",
+    "c": "frame_content bottom_margin",
     "s": "",
     "e": [
       {
         "t": "e",
-        "c": "img",
-        "s": "",
-        "h": "<img class='img--primary' src='./assets/lily_2x.png' alt='Alexa' width='300' height='430' />"
-      }
-    ]
-    
-  },
-  {
-    "t":"f",
-    "c":"frame_content bottom_margin",
-    "s":"",
-    "e": [
-      {
-          "t": "e",
-          "s": "",
-          "h": "<img class='arrow' src='./assets/arrow_2_2x.png' alt='logo'/>" 
+        "s": "width:200px; height:50px",
+        "h": "<img class='arrow' src='https://s0.2mdn.net/creatives/assets/5055458/arrow_2_2x.png' alt='logo'/>"
       },
-      {
-          "t": "e",
-          "c": "copy",
-          "s": "text-align:center",
-          "h": "<div class='' style=''>Mini Alexa in Amethyst</div>" 
-      },
-      {
-          "t": "e",
-          "s": "text-align:center",
-          "h": "<img class='arrow' src='./assets/arrow_2x.png' alt='logo'/>" 
-      }
-    ]
 
+      {
+        "t": "e",
+        "s": "",
+        "h": "<img class='arrow' src='https://s0.2mdn.net/creatives/assets/5055458/arrow_2x.png' alt='logo'/>"
+      }
+    ]
   },
   {
     "t": "e",
     "c": "",
     "s": "display:flex",
-    "h": "<img class='img--cta' src='./assets/cta_2x.png' alt='Alexa' width='80' height='15' />"
+    "h": "<img class='img--cta' src='https://s0.2mdn.net/creatives/assets/5055458/cta_2x.png' alt='Alexa' width='80' height='15' />"
   }
-  
 ]

@@ -19,11 +19,18 @@ Layout
 .img--primary {
 	object-fit: cover;
 	object-position: top;
+    height: 430px;
+    width: 300px;
 }
 
 .arrow {
     height: 12px;
     width: 7px;
+}
+
+.frame_img_container {
+    height: 430px;
+    width: 300px;
 }
 
 .frame_content {
@@ -33,6 +40,23 @@ Layout
     font-family: BemboStd;
     font-size: 24px;
 }
+
+.frame--img,
+.copy {
+    position: absolute;
+
+}
+
+/* .active {
+    opacity: 1;
+}
+
+.alexa,
+.lily,
+.mirco,
+.scarf {
+    opacity: 0;
+} */
 
 .bottom_margin {
     margin-bottom: 20px;
