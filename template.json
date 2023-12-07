@@ -1,12 +1,12 @@
 [
   {
     "t": "j",
-    "s": "KGZ1bmN0aW9uICgpIHsKICBjb25zdCBpbWFnZVNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmZyYW1lLS1pbWciKSk7CiAgY29uc3QgbmF2QnRucyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoIi5hcnJvdyIpOwogIGxldCBuZXh0U2xpZGU7CiAgbGV0IHNsaWRlSW5kZXggPSAwOwoKICBjb25zb2xlLmxvZyhpbWFnZVNsaWRlcywgbmF2QnRucyk7CgogIC8vICAgYnV0dG9uIGZ1bmN0aW9uYWxpdHkKICBuYXZCdG5zLmZvckVhY2goKGJ0bikgPT4gewogICAgYnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGUpID0+IHsKICAgICAgY29uc29sZS5sb2coImNsaWNrIiwgZS5jdXJyZW50VGFyZ2V0KTsKCiAgICAgIGlmIChlLmN1cnJlbnRUYXJnZXQuY2xhc3NOYW1lLmluY2x1ZGVzKCJuZXh0IikpIHsKICAgICAgICBjb25zb2xlLmxvZygibmV4dCBidXR0b24iKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBjb25zb2xlLmxvZygicHJldiBidXR0b24iKTsKICAgICAgfQoKICAgICAgaWYgKG5leHRTbGlkZSA8IDApIG5leHRTbGlkZSA9IHNsaWRlSW1hZ2VzLmxlbmd0aCAtIDE7CiAgICAgIGlmIChuZXh0U2xpZGUgPiBzbGlkZUltYWdlcy5sZW5ndGggLSAxKSBuZXh0U2xpZGUgPSAwOwogICAgfSk7CiAgfSk7CgogIC8vIGRpc3BsYXkgc2xpZGUgbG9naWMKICBjb25zdCBzaG93U2xpZGUgPSAoaW5kZXgpID0+IHsKICAgIGltYWdlU2xpZGVzW2luZGV4XS5jbGFzc0xpc3QuYWRkKCJhY3RpdmUiKTsKICB9OwogIGNvbnN0IGhpZGVTbGlkZSA9IChpbmRleCkgPT4gewogICAgaW1hZ2VTbGlkZXNbaW5kZXhdLmNsYXNzTGlzdC5yZW1vdmUoImFjdGl2ZSIpOwogIH07CgogIC8vIGxvb3Agb3ZlciBzbGlkZXMKICBjb25zdCBjYXJvdXNlbExvb3AgPSAoKSA9PiB7CiAgICBpbWFnZVNsaWRlcy5mb3JFYWNoKHNsaWRlID0+IHsKICAgICAgICBzbGlkZS5jbGFzc0xpc3QucmVtb3ZlKCJhY3RpdmUiKQogICAgfSkKCiAgICBpZiAoc2xpZGVJbmRleCA+PSBpbWFnZVNsaWRlcy5sZW5ndGgpIHsKICAgICAgc2xpZGVJbmRleCA9IDA7CiAgICB9CiAgICBpbWFnZVNsaWRlc1tzbGlkZUluZGV4XS5jbGFzc0xpc3QuYWRkKCJhY3RpdmUiKTsKCiAgICAKICAgIGNvbnNvbGUubG9nKGltYWdlU2xpZGVzW3NsaWRlSW5kZXhdKTsKICAgIAogICAgc2xpZGVJbmRleCsrOwogICAgc2V0VGltZW91dChjYXJvdXNlbExvb3AsIDQwMDApOwogIH07CgogIGNhcm91c2VsTG9vcCgpOwp9KSgpOwo="
+    "s": "KGZ1bmN0aW9uICgpIHsKICBjb25zdCBpbWFnZVNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmZyYW1lLS1pbWciKSk7CiAgY29uc3QgdGV4dFNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmNvcHkiKSk7CiAgY29uc3QgbmF2QnRucyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoIi5hcnJvdyIpOwogIGxldCBzbGlkZUluZGV4ID0gMDsKCiAgY29uc29sZS5sb2cobmF2QnRucyk7CgogIC8vICAgYnV0dG9uIGZ1bmN0aW9uYWxpdHkKICBuYXZCdG5zLmZvckVhY2goKGJ0bikgPT4gewogICAgYnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGUpID0+IHsKICAgICAgLy8gICBjb25zb2xlLmxvZygiY2xpY2siLCBlLmN1cnJlbnRUYXJnZXQpOwoKICAgICAgaWYgKGUuY3VycmVudFRhcmdldC5jbGFzc05hbWUuaW5jbHVkZXMoIm5leHQiKSkgewogICAgICAgIHNsaWRlSW5kZXgrKzsKICAgICAgfSBlbHNlIHsKICAgICAgICBzbGlkZUluZGV4LS07CiAgICAgIH0KCiAgICAgIGlmIChzbGlkZUluZGV4IDwgMCkgc2xpZGVJbmRleCA9IHNsaWRlSW1hZ2VzLmxlbmd0aCAtIDE7CiAgICAgIGlmIChzbGlkZUluZGV4ID4gc2xpZGVJbWFnZXMubGVuZ3RoIC0gMSkgc2xpZGVJbmRleCA9IDA7CgogICAgICBoaWRlQWN0aXZlU2xpZGVzKGltYWdlU2xpZGVzKTsKICAgICAgaGlkZUFjdGl2ZVNsaWRlcyh0ZXh0U2xpZGVzKTsKICAgICAgc2hvd1NsaWRlKGltYWdlU2xpZGVzLCBzbGlkZUluZGV4KTsKICAgICAgc2hvd1NsaWRlKHRleHRTbGlkZXMsIHNsaWRlSW5kZXgpOwogICAgfSk7CiAgfSk7CgogIC8vIGRpc3BsYXkgJiBoaWRlIHNsaWRlIGxvZ2ljCiAgY29uc3Qgc2hvd1NsaWRlID0gKGFyciwgaW5kZXgpID0+IHsKICAgIGFycltpbmRleF0uY2xhc3NMaXN0LmFkZCgiYWN0aXZlIik7CiAgfTsKCiAgY29uc3QgaGlkZUFjdGl2ZVNsaWRlcyA9IChhcnIpID0+IHsKICAgIGFyci5mb3JFYWNoKChzbGlkZSkgPT4gewogICAgICBzbGlkZS5jbGFzc0xpc3QucmVtb3ZlKCJhY3RpdmUiKTsKICAgIH0pOwogIH07CgogIC8vIGNvbnRpbnVvdXMgbG9vcCBvdmVyIHNsaWRlcwogIGNvbnN0IGNhcm91c2VsTG9vcCA9ICgpID0+IHsKICAgIGhpZGVBY3RpdmVTbGlkZXMoaW1hZ2VTbGlkZXMpOwogICAgaGlkZUFjdGl2ZVNsaWRlcyh0ZXh0U2xpZGVzKTsKCiAgICBpZiAoc2xpZGVJbmRleCA+PSBpbWFnZVNsaWRlcy5sZW5ndGgpIHsKICAgICAgc2xpZGVJbmRleCA9IDA7CiAgICB9CgogICAgc2hvd1NsaWRlKGltYWdlU2xpZGVzLCBzbGlkZUluZGV4KTsKICAgIHNob3dTbGlkZSh0ZXh0U2xpZGVzLCBzbGlkZUluZGV4KTsKCiAgICBzbGlkZUluZGV4Kys7CiAgICBzZXRUaW1lb3V0KGNhcm91c2VsTG9vcCwgMTUwMCk7CiAgfTsKCiAgY2Fyb3VzZWxMb29wKCk7Cn0pKCk7Cg=="
 
   },
   {
     "t": "s",
-    "s": ".dynamicAdvertContainer{position:absolute;border:1px solid #000;box-sizing:border-box;line-height:1;overflow:hidden;width:300px;height:600px;cursor:pointer;transform:translateZ(0);background-color: #f9f7f0;}@font-face{font-family:BemboStd;src:url('./fonts/BemboStd.otf.webloc')}.logo{margin:0 auto;position:absolute;z-index:2;inset:176px 0 205px;width:200px;}.img--primary{object-fit:cover;object-position:top;height:430px;width:300px;}.img--cta{margin:0 auto}.arrow{height:12px;width:7px}.frame--content{display:flex;justify-content:space-around;align-items:flex-start;font-size: 20px;}.bottom_margin{margin-bottom:25px}.frame--img,.copy{position:absolute}.copy{font-family: BemboStd;text-align: center;bottom:125px;left:0;right:0;margin:0 auto}.frame--img{opacity:0;transition: opacity 1.5s ease-in-out;}.frame_img_container{height:430px;width:300px}.active{opacity:1}"
+    "s": ".dynamicAdvertContainer{position:absolute;border:1px solid #000;box-sizing:border-box;line-height:1;overflow:hidden;width:300px;height:600px;cursor:pointer;transform:translateZ(0);background-color: #f9f7f0;}@font-face{font-family:BemboStd;src:url('./fonts/BemboStd.otf.webloc')}.logo{margin:0 auto;position:absolute;z-index:2;inset:176px 0 205px;width:200px;}.img--primary{object-fit:cover;object-position:top;height:430px;width:300px;}.img--cta{margin:0 auto}.arrow{height:12px;width:7px}.frame--content{display:flex;justify-content:space-around;align-items:flex-start;font-size: 20px;}.bottom_margin{margin-bottom:25px}.frame--img,.copy{position:absolute;opacity:0;transition: opacity 1.5s ease-in-out;}.copy{font-family: BemboStd;text-align: center;bottom:125px;left:0;right:0;margin:0 auto}.frame_img_container{height:430px;width:300px}.active{opacity:1}"
   },
   {
     "t": "e",
@@ -43,56 +43,23 @@
       {
         "t": "e",
         "c": "copy",
-        "s": "opacity: 1",
-        "h": "Mini Alexa in Amethyst",
-        "a": {
-          "s": 500,
-          "e": 1000,
-          "n": "opacity 1s ease-out",
-          "b": "opacity: 0"
-        }
+        "h": "Mini Alexa in Amethyst"
       },
       {
         "t": "e",
         "c": "copy",
-        "s": "opacity: 0",
-        "h": "Medium Lily in Sapphire",
-        "a": {
-          "s": 1000,
-          "e": 3000,
-          "n": "opacity 1s ease-in",
-          "x": "opacity 1s ease-out",
-          "b": "opacity: 1",
-          "a": "opacity: 0"
-        }
+        "h": "Medium Lily in Sapphire"
       },
       {
         "t": "e",
         "c": "copy",
-        "s": "opacity: 0",
-        "h": "Micro Bags",
-        "a": {
-          "s": 2500,
-          "e": 4500,
-          "n": "opacity 1s ease-in",
-          "x": "opacity 1s ease-out",
-          "b": "opacity: 1",
-          "a": "opacity: 0"
-        }
+        "h": "Micro Bags"
       },
       {
         "t": "e",
         "c": "copy",
-        "s": "opacity: 0;height:16px;width:180px",
-        "h": "Small Check Merino Wool Scarf",
-        "a": {
-          "s": 4000,
-          "e": 6000,
-          "n": "opacity 1s ease-in",
-          "x": "opacity 1s ease-out",
-          "b": "opacity: 1",
-          "a": "opacity: 0"
-        }
+        "s": "height:16px;width:180px",
+        "h": "Small Check Merino Wool Scarf"
       }
     ]
   },
