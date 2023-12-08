@@ -1,12 +1,12 @@
 [
   {
     "t": "j",
-    "s": "KGZ1bmN0aW9uICgpIHsKICBjb25zdCBpbWFnZVNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmZyYW1lLS1pbWciKSk7CiAgY29uc3QgdGV4dFNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmNvcHkiKSk7CiAgY29uc3QgbmF2QnRucyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoIi5hcnJvdyIpOwogIGxldCBzbGlkZUluZGV4ID0gMDsKCiAgY29uc29sZS5sb2cobmF2QnRucyk7CgogIC8vICAgYnV0dG9uIGZ1bmN0aW9uYWxpdHkKICBuYXZCdG5zLmZvckVhY2goKGJ0bikgPT4gewogICAgYnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGUpID0+IHsKICAgICAgLy8gICBjb25zb2xlLmxvZygiY2xpY2siLCBlLmN1cnJlbnRUYXJnZXQpOwoKICAgICAgaWYgKGUuY3VycmVudFRhcmdldC5jbGFzc05hbWUuaW5jbHVkZXMoIm5leHQiKSkgewogICAgICAgIHNsaWRlSW5kZXgrKzsKICAgICAgfSBlbHNlIHsKICAgICAgICBzbGlkZUluZGV4LS07CiAgICAgIH0KCiAgICAgIGlmIChzbGlkZUluZGV4IDwgMCkgc2xpZGVJbmRleCA9IHNsaWRlSW1hZ2VzLmxlbmd0aCAtIDE7CiAgICAgIGlmIChzbGlkZUluZGV4ID4gc2xpZGVJbWFnZXMubGVuZ3RoIC0gMSkgc2xpZGVJbmRleCA9IDA7CgogICAgICBoaWRlQWN0aXZlU2xpZGVzKGltYWdlU2xpZGVzKTsKICAgICAgaGlkZUFjdGl2ZVNsaWRlcyh0ZXh0U2xpZGVzKTsKICAgICAgc2hvd1NsaWRlKGltYWdlU2xpZGVzLCBzbGlkZUluZGV4KTsKICAgICAgc2hvd1NsaWRlKHRleHRTbGlkZXMsIHNsaWRlSW5kZXgpOwogICAgfSk7CiAgfSk7CgogIC8vIGRpc3BsYXkgJiBoaWRlIHNsaWRlIGxvZ2ljCiAgY29uc3Qgc2hvd1NsaWRlID0gKGFyciwgaW5kZXgpID0+IHsKICAgIGFycltpbmRleF0uY2xhc3NMaXN0LmFkZCgiYWN0aXZlIik7CiAgfTsKCiAgY29uc3QgaGlkZUFjdGl2ZVNsaWRlcyA9IChhcnIpID0+IHsKICAgIGFyci5mb3JFYWNoKChzbGlkZSkgPT4gewogICAgICBzbGlkZS5jbGFzc0xpc3QucmVtb3ZlKCJhY3RpdmUiKTsKICAgIH0pOwogIH07CgogIC8vIGNvbnRpbnVvdXMgbG9vcCBvdmVyIHNsaWRlcwogIGNvbnN0IGNhcm91c2VsTG9vcCA9ICgpID0+IHsKICAgIGhpZGVBY3RpdmVTbGlkZXMoaW1hZ2VTbGlkZXMpOwogICAgaGlkZUFjdGl2ZVNsaWRlcyh0ZXh0U2xpZGVzKTsKCiAgICBpZiAoc2xpZGVJbmRleCA+PSBpbWFnZVNsaWRlcy5sZW5ndGgpIHsKICAgICAgc2xpZGVJbmRleCA9IDA7CiAgICB9CgogICAgc2hvd1NsaWRlKGltYWdlU2xpZGVzLCBzbGlkZUluZGV4KTsKICAgIHNob3dTbGlkZSh0ZXh0U2xpZGVzLCBzbGlkZUluZGV4KTsKCiAgICBzbGlkZUluZGV4Kys7CiAgICBzZXRUaW1lb3V0KGNhcm91c2VsTG9vcCwgMTUwMCk7CiAgfTsKCiAgY2Fyb3VzZWxMb29wKCk7Cn0pKCk7Cg=="
+    "s": "KGZ1bmN0aW9uICgpIHsKICBjb25zdCBpbWFnZVNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmZyYW1lLS1pbWciKSk7CiAgY29uc3QgdGV4dFNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmNvcHkiKSk7CiAgY29uc3QgbmF2QnRucyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmFycm93IikpOwogIGxldCBzbGlkZUluZGV4ID0gMDsKCiAgLy8gYnV0dG9uIGZ1bmN0aW9uYWxpdHkKICBuYXZCdG5zLmZvckVhY2goKGJ0bikgPT4gewogICAgYnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGUpID0+IHsKICAgICAgaWYgKGUuY3VycmVudFRhcmdldC5jbGFzc05hbWUuaW5jbHVkZXMoIm5leHQiKSkgewogICAgICAgIHNsaWRlSW5kZXgrKzsKICAgICAgfSBlbHNlIHsKICAgICAgICAtLXNsaWRlSW5kZXg7CiAgICAgIH0KCiAgICAgIGlmIChzbGlkZUluZGV4IDwgMCkgc2xpZGVJbmRleCA9IGltYWdlU2xpZGVzLmxlbmd0aCAtIDE7CiAgICAgIGlmIChzbGlkZUluZGV4ID4gaW1hZ2VTbGlkZXMubGVuZ3RoIC0gMSkgc2xpZGVJbmRleCA9IDA7CgogICAgICBoaWRlQWN0aXZlU2xpZGVzKGltYWdlU2xpZGVzKTsKICAgICAgaGlkZUFjdGl2ZVNsaWRlcyh0ZXh0U2xpZGVzKTsKCiAgICAgIHNob3dTbGlkZShpbWFnZVNsaWRlcywgc2xpZGVJbmRleCk7CiAgICAgIHNob3dTbGlkZSh0ZXh0U2xpZGVzLCBzbGlkZUluZGV4KTsKICAgIH0pOwogIH0pOwoKICAvLyBkaXNwbGF5ICYgaGlkZSBzbGlkZSBsb2dpYwogIGNvbnN0IHNob3dTbGlkZSA9IChhcnIsIGluZGV4KSA9PiB7CiAgICBhcnJbaW5kZXhdLmNsYXNzTGlzdC5hZGQoImFjdGl2ZSIpOwogIH07CgogIGNvbnN0IGhpZGVBY3RpdmVTbGlkZXMgPSAoYXJyKSA9PiB7CiAgICBhcnIuZm9yRWFjaCgoc2xpZGUpID0+IHsKICAgICAgc2xpZGUuY2xhc3NMaXN0LnJlbW92ZSgiYWN0aXZlIik7CiAgICB9KTsKICB9OwoKICAvLyBjb250aW51b3VzIGxvb3Agb3ZlciBzbGlkZXMKICBjb25zdCBjYXJvdXNlbExvb3AgPSAoKSA9PiB7CiAgICBoaWRlQWN0aXZlU2xpZGVzKGltYWdlU2xpZGVzKTsKICAgIGhpZGVBY3RpdmVTbGlkZXModGV4dFNsaWRlcyk7CgogICAgaWYgKHNsaWRlSW5kZXggPj0gaW1hZ2VTbGlkZXMubGVuZ3RoKSB7CiAgICAgIHNsaWRlSW5kZXggPSAwOwogICAgfQoKICAgIHNob3dTbGlkZShpbWFnZVNsaWRlcywgc2xpZGVJbmRleCk7CiAgICBzaG93U2xpZGUodGV4dFNsaWRlcywgc2xpZGVJbmRleCk7CgogICAgc2xpZGVJbmRleCsrOwogICAgc2V0VGltZW91dChjYXJvdXNlbExvb3AsIDE1MDApOwogIH07CgogIGNhcm91c2VsTG9vcCgpOwp9KSgpOwo="
 
   },
   {
     "t": "s",
-    "s": ".dynamicAdvertContainer{position:absolute;border:1px solid #000;box-sizing:border-box;line-height:1;overflow:hidden;width:300px;height:600px;cursor:pointer;transform:translateZ(0);background-color: #f9f7f0;}@font-face{font-family:BemboStd;src:url('./fonts/BemboStd.otf.webloc')}.logo{margin:0 auto;position:absolute;z-index:2;inset:176px 0 205px;width:200px;}.img--primary{object-fit:cover;object-position:top;height:430px;width:300px;}.img--cta{margin:0 auto}.arrow{height:12px;width:7px}.frame--content{display:flex;justify-content:space-around;align-items:flex-start;font-size: 20px;}.bottom_margin{margin-bottom:25px}.frame--img,.copy{position:absolute;opacity:0;transition: opacity 1.5s ease-in-out;}.copy{font-family: BemboStd;text-align: center;bottom:125px;left:0;right:0;margin:0 auto}.frame_img_container{height:430px;width:300px}.active{opacity:1}"
+    "s": ".dynamicAdvertContainer{position:absolute;border:1px solid #000;box-sizing:border-box;line-height:1;overflow:hidden;width:300px;height:600px;transform:translateZ(0);background-color: #f9f7f0;}@font-face{font-family:BemboStd;src:url('https://s0.2mdn.net/creatives/assets/5055458/BemboStd.otf')}.logo{margin:0 auto;position:absolute;z-index:2;inset:176px 0 205px;width:200px;}.img--primary{object-fit:cover;object-position:top;height:430px;width:300px;}.img--cta{margin:0 auto}.arrow{height:12px;width:7px}.frame--content{display:flex;justify-content:space-around;align-items:flex-start;}.bottom_margin{margin-bottom:25px}.frame--img,.copy{position:absolute;opacity:0;transition: opacity 1.5s ease-in-out;}.copy{font-size: 20px;font-family: BemboStd;text-align: center;bottom:125px;left:0;right:0;margin:0 auto;width:180px;height:16px;}.frame_img_container{height:430px;width:300px}.active{opacity:1}.prev{cursor:pointer;}"
   },
   {
     "t": "e",
@@ -18,7 +18,6 @@
     "t": "f",
     "d": "3000",
     "c": "frame_img_container bottom_margin",
-    "s": "",
     "e": [
       {
         "t": "e",
@@ -58,7 +57,6 @@
       {
         "t": "e",
         "c": "copy",
-        "s": "height:16px;width:180px",
         "h": "Small Check Merino Wool Scarf"
       }
     ]
@@ -66,12 +64,11 @@
   {
     "t": "f",
     "c": "frame--content bottom_margin",
-    "s": "",
     "e": [
       {
         "t": "e",
-        "s": "",
         "c": "prev",
+        "s": "cursor:pointer;",
         "h": "<img class='arrow prev' src='https://s0.2mdn.net/creatives/assets/5055458/arrow_2_2x.png' alt='logo'/>"
       },
       {
@@ -80,16 +77,15 @@
       },
       {
         "t": "e",
-        "s": "",
         "c": "next",
+        "s": "cursor:pointer;",
         "h": "<img class='arrow next' src='https://s0.2mdn.net/creatives/assets/5055458/arrow_2x.png' alt='logo'/>"
       }
     ]
   },
   {
     "t": "e",
-    "c": "",
-    "s": "display:flex",
-    "h": "<img class='img--cta' src='https://s0.2mdn.net/creatives/assets/5055458/cta_2x.png' alt='Alexa' width='80' height='15' />"
+    "s": "display:flex;cursor:pointer;",
+    "h": "<a class='img--cta' target='_blank' href='https://www.mulberry.com/gb/shop/women/bags?gad_source=1&gclid=CjwKCAiAmsurBhBvEiwA6e-WPIMduQLSvj9fU_VU8wBeb50XbjrCpeki7qjB5GO_YdsuH43VcRpaIBoC4SMQAvD_BwE&gclsrc=aw.ds'><img src='https://s0.2mdn.net/creatives/assets/5055458/cta_2x.png' alt='call to action' width='80' height='15' /></a>"
   }
 ]

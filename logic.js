@@ -78,7 +78,7 @@ function setupDom() {
  */
 function addListeners() {
   // If ORCA creative then comment out below
-  creative.dom.mainContainer.addEventListener('click', exitClickHandler);
+  // creative.dom.mainContainer.addEventListener('click', exitClickHandler);
 }
 
 /**

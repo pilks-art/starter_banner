@@ -1,1 +1,55 @@
-KGZ1bmN0aW9uICgpIHsKICBjb25zdCBpbWFnZVNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmZyYW1lLS1pbWciKSk7CiAgY29uc3QgdGV4dFNsaWRlcyA9IEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgiLmNvcHkiKSk7CiAgY29uc3QgbmF2QnRucyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoIi5hcnJvdyIpOwogIGxldCBzbGlkZUluZGV4ID0gMDsKCiAgY29uc29sZS5sb2cobmF2QnRucyk7CgogIC8vICAgYnV0dG9uIGZ1bmN0aW9uYWxpdHkKICBuYXZCdG5zLmZvckVhY2goKGJ0bikgPT4gewogICAgYnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGUpID0+IHsKICAgICAgLy8gICBjb25zb2xlLmxvZygiY2xpY2siLCBlLmN1cnJlbnRUYXJnZXQpOwoKICAgICAgaWYgKGUuY3VycmVudFRhcmdldC5jbGFzc05hbWUuaW5jbHVkZXMoIm5leHQiKSkgewogICAgICAgIHNsaWRlSW5kZXgrKzsKICAgICAgfSBlbHNlIHsKICAgICAgICBzbGlkZUluZGV4LS07CiAgICAgIH0KCiAgICAgIGlmIChzbGlkZUluZGV4IDwgMCkgc2xpZGVJbmRleCA9IHNsaWRlSW1hZ2VzLmxlbmd0aCAtIDE7CiAgICAgIGlmIChzbGlkZUluZGV4ID4gc2xpZGVJbWFnZXMubGVuZ3RoIC0gMSkgc2xpZGVJbmRleCA9IDA7CgogICAgICBoaWRlQWN0aXZlU2xpZGVzKGltYWdlU2xpZGVzKTsKICAgICAgaGlkZUFjdGl2ZVNsaWRlcyh0ZXh0U2xpZGVzKTsKICAgICAgc2hvd1NsaWRlKGltYWdlU2xpZGVzLCBzbGlkZUluZGV4KTsKICAgICAgc2hvd1NsaWRlKHRleHRTbGlkZXMsIHNsaWRlSW5kZXgpOwogICAgfSk7CiAgfSk7CgogIC8vIGRpc3BsYXkgJiBoaWRlIHNsaWRlIGxvZ2ljCiAgY29uc3Qgc2hvd1NsaWRlID0gKGFyciwgaW5kZXgpID0+IHsKICAgIGFycltpbmRleF0uY2xhc3NMaXN0LmFkZCgiYWN0aXZlIik7CiAgfTsKCiAgY29uc3QgaGlkZUFjdGl2ZVNsaWRlcyA9IChhcnIpID0+IHsKICAgIGFyci5mb3JFYWNoKChzbGlkZSkgPT4gewogICAgICBzbGlkZS5jbGFzc0xpc3QucmVtb3ZlKCJhY3RpdmUiKTsKICAgIH0pOwogIH07CgogIC8vIGNvbnRpbnVvdXMgbG9vcCBvdmVyIHNsaWRlcwogIGNvbnN0IGNhcm91c2VsTG9vcCA9ICgpID0+IHsKICAgIGhpZGVBY3RpdmVTbGlkZXMoaW1hZ2VTbGlkZXMpOwogICAgaGlkZUFjdGl2ZVNsaWRlcyh0ZXh0U2xpZGVzKTsKCiAgICBpZiAoc2xpZGVJbmRleCA+PSBpbWFnZVNsaWRlcy5sZW5ndGgpIHsKICAgICAgc2xpZGVJbmRleCA9IDA7CiAgICB9CgogICAgc2hvd1NsaWRlKGltYWdlU2xpZGVzLCBzbGlkZUluZGV4KTsKICAgIHNob3dTbGlkZSh0ZXh0U2xpZGVzLCBzbGlkZUluZGV4KTsKCiAgICBzbGlkZUluZGV4Kys7CiAgICBzZXRUaW1lb3V0KGNhcm91c2VsTG9vcCwgMTUwMCk7CiAgfTsKCiAgY2Fyb3VzZWxMb29wKCk7Cn0pKCk7Cg==
+(function () {
+  const imageSlides = Array.from(document.querySelectorAll(".frame--img"));
+  const textSlides = Array.from(document.querySelectorAll(".copy"));
+  const navBtns = Array.from(document.querySelectorAll(".arrow"));
+  let slideIndex = 0;
+
+  // button functionality
+  navBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      if (e.currentTarget.className.includes("next")) {
+        slideIndex++;
+      } else {
+        --slideIndex;
+      }
+
+      if (slideIndex < 0) slideIndex = imageSlides.length - 1;
+      if (slideIndex > imageSlides.length - 1) slideIndex = 0;
+
+      hideActiveSlides(imageSlides);
+      hideActiveSlides(textSlides);
+
+      showSlide(imageSlides, slideIndex);
+      showSlide(textSlides, slideIndex);
+    });
+  });
+
+  // display & hide slide logic
+  const showSlide = (arr, index) => {
+    arr[index].classList.add("active");
+  };
+
+  const hideActiveSlides = (arr) => {
+    arr.forEach((slide) => {
+      slide.classList.remove("active");
+    });
+  };
+
+  // continuous loop over slides
+  const carouselLoop = () => {
+    hideActiveSlides(imageSlides);
+    hideActiveSlides(textSlides);
+
+    if (slideIndex >= imageSlides.length) {
+      slideIndex = 0;
+    }
+
+    showSlide(imageSlides, slideIndex);
+    showSlide(textSlides, slideIndex);
+
+    slideIndex++;
+    setTimeout(carouselLoop, 1500);
+  };
+
+  carouselLoop();
+})();
